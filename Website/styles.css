@@ -1,0 +1,70 @@
+p {
+	text-indent:50px;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-size:14px;
+	width:auto;
+	height:auto;
+	background-color:#fff0dc;
+	margin:50px;
+}
+table {
+	width:80%;
+}
+th.projects, td.projects {
+	width:auto;
+	text-align:center;
+}
+
+a.navigation:link,a.navigation:visited {
+	color: black;
+	text-decoration: none;
+}
+a.navigation:hover {
+	color: black;
+	text-decoration: underline;
+}
+a.navigation:active {
+	color: white;
+	text-decoration: underline;
+}
+
+div.imagecontainer {
+	background-image:url("JosephHead.jpg");
+	background-position: 48% 40%;
+	background-repeat: no-repeat;
+	background-size: auto 90px;
+	
+	width:50px;
+	height:50px;
+	float:left;
+}
+
+div.topnav {
+	width:40%;
+	height:50px;
+}
+div.navigation {
+	width:25%;
+	height:100%;
+	vertical-align:middle;
+	line-height: 50px;
+	float:left;
+}
+div.currentpage {
+	background-color: #5555ff;
+}
+
+body {
+	background-image:url("BackgroundImage.png");
+	background-size: 100%,auto;
+}
+
+header {
+	background-color:  #8888ff;
+	background-position: 90% 30%;
+	background-repeat: no-repeat;
+}
